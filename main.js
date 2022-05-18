@@ -107,3 +107,61 @@
 //     }
 //     console.log(array)
 // }
+// ---------------------------------------------------------------------------------------------
+
+
+
+// צרו פונקציה המקבלת סטרינג ומדפיסה את התווים בשורות נפרדות
+// ------------------------------------------
+// function someFunc(){
+//     var myWord = "hello"
+//     for(var i = 0 ; i<myWord.length; i++)
+//     console.log(myWord[i]);
+// }
+// someFunc();
+
+
+// function someFunc(){
+//     var myString = "hello world"
+//     for(var i = 0 ; i<myString.length;i++){
+//         console.log(myString[i])
+//     }
+// }
+// someFunc();
+// -----------------------------------------------
+
+
+
+// פונקציה שמקבלת סטרינג ומחזירה סטרינג חדש שאחרי כל אות מופיעה האינדקס שלה
+// NOT FINISH
+// var myString = "my name is lior"; 
+// function someString(justString){
+    
+//     var arraystr = "";
+//     for(var i = 0 ; i<justString.length;i++){
+//     arraystr += justString[i]
+//     }
+//     return arraystr
+// }
+// someString(myString);
+
+
+
+// צור פונקציה המקבלת סטרינג ומחליפה כל תו במיקום הזוגי ל-2
+// function someString(object){
+//     var tempString = ""
+//     for(var i = 0 ; i<object.length ; i++){
+//         if(i%2==0){
+//             tempString += "2"
+//         }
+//         else{
+//             tempString += object[i]
+//         }
+        
+//     }
+//     return tempString
+// }
+// console.log(someString("hello presentation"));
+
+
+
