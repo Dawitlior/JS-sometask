@@ -85,4 +85,25 @@
 // console.log(sum,sum/5);
 
 
+// פונקציה שקולטת מהמשתמש מספר ומדפיסה את ספרותיו-לדוג:
+// אם המשתמש מכניס 673 אז התכנית תדפיס לך 6,7,3
+// function digiPrint(){
+// var num = parseInt(prompt("type a number"))
+// while(num/10 != 0){
+//     var result = num % 10
+//     num = (num-result) /10
+//     console.log(result)
+// }
+// }
+// digiPrint()
 
+
+//צור מערך אקראי של מילים ומספרים שעוברת על המערך ומחליפה את המילים במילה "not a number"
+
+// var array = [9,"some",8,"any"]
+// for(var i = 0 ; i<array.length; i++){
+//     if(array[i]*0 != 0){
+//         array[i]="not a number"
+//     }
+//     console.log(array)
+// }
